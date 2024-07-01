@@ -1,0 +1,464 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0"> 
+    <title>My Portfolio</title> 
+    <link rel="stylesheet" 
+          href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="responsive.css"> 
+</head> 
+  
+<body> 
+    <!-- Navbar header section -->
+    <header class="header"> 
+        <nav class="navbar"> 
+            <div class="logo"> 
+                <h2 class="logo-heading">Nikita Pawar</h2> 
+            </div> 
+            <div class="hamburger" id="hamburger"> 
+                <i class="fas fa-bars hamburger-icon"></i> 
+                <i class="fas fa-times cross-icon"></i> 
+            </div> 
+            <div class="menu"> 
+                <ul class="menu-list"> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#home"> 
+                              Home 
+                          </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#portfolio"> 
+                              Portfolio 
+                          </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#about"> 
+                              About 
+                          </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#services"> 
+                              Services 
+                          </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#contact"> 
+                              Contact Me 
+                          </a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </nav> 
+    </header> 
+  
+    <!-- Main hero banner -->
+    <section id="home" class="hero"> 
+        <div class="intro"> 
+            <div class="headings"> 
+                <h2 class="greet-heading">Hello, I'm</h2> 
+                <h5 class="my-heading"> Nikita Pawar</h5> 
+                <h4 class="sub-heading"> 
+                  Aspiring Developer with a Passion for Innovation
+                </h4> 
+            </div> 
+            <div class="intro-buttons"> 
+                <button class="btn common-btn">Hire Me</button> 
+                <a href="new resume.pdf">
+                    <button class="btn ghost-btn">Get Resume</button>
+                  </a>
+                  
+            </div> 
+        </div> 
+    </section>
+  
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio"> 
+        <div class="portfolio-heading"> 
+            <h1 class="my-heading text-center">Featured Portfolio</h1> 
+        </div> 
+        <div class="portfolio-content"> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="web_design.avif" 
+                                 alt="Web Design Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">Web Design</h3> 
+                        <p class="small-para blue-text">Designing</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="web_developer.avif" 
+                                 alt="Web Development Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Web Development 
+                          </h3> 
+                        <p class="small-para blue-text">Development</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="SEO.jpg" alt="SEO Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">SEO</h3> 
+                        <p class="small-para blue-text">Optimization</p> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="Content_writing.png" 
+                                 alt="Content Writting Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Content Writing 
+                          </h3> 
+                        <p class="small-para blue-text">Writing</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="word_press.png" 
+                                 alt="Wordpress Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              WordPress Dev 
+                          </h3> 
+                        <p class="small-para blue-text"> 
+                              Content Management System 
+                          </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="video_editing.jpg" 
+                                 alt="Video Editing Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Video Editing 
+                          </h3> 
+                        <p class="small-para blue-text">Editing</p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+  
+    <!-- About Section -->
+    <section id="about" class="about"> 
+        <div class="about-text"> 
+            <h1 class="my-heading">About Me</h1> 
+            <p class="lead-para"> 
+              Hello! I'm Nikita Pawar, a passionate and 
+               dedicated front-end web developer with a 
+              keen eye for design and a love for creating 
+               engaging user experiences. With a solid foundation 
+                in HTML, CSS, and JavaScript, I strive to build 
+                 websites that are not only visually appealing 
+                  but also highly functional and user-friendly.
+            </p> 
+            <p> 
+              My journey into web development began with 
+              a fascination for how websites work and a desire 
+               to create my own digital spaces. Over the years, 
+               I have honed my skills through various projects,
+                from small personal websites to larger, more complex 
+                 web applications. My expertise lies in front-end technologies, 
+                  including frameworks like React and Vue.js, which allow 
+                   me to build dynamic and responsive web pages.
+            </p> 
+        </div> 
+        <div class="about-image"> 
+            <img src="pic.jpg" alt="About Image"> 
+        </div> 
+    </section> 
+  
+    <!-- Services Section -->
+    <section class="services" id="services"> 
+        <div class="services-heading"> 
+            <h1 class="my-heading text-center">My Services</h1> 
+        </div> 
+        <div class="services-content"> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-paint-brush"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">Web Design</h3> 
+                        <p class="small-para"> 
+                          Web design is a multifaceted discipline 
+                           that involves the planning, creation, and
+                            maintenance of websites. It encompasses 
+                            several different aspects, including webpage 
+                             layout, content production, and graphic design. 
+                              
+                        </p> 
+                        <p class="small-para"> 
+                          At the core of web design is the user
+                           experience (UX). Designers must consider 
+                            how users will interact with the site and 
+                            strive to create an intuitive, seamless experience. 
+                             This involves using clear and consistent navigation,
+                              optimizing load times,and ensuring the site is responsive,
+                               meaning it works well on various devices and screen sizes.
+                               
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fa-solid fa-code"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Web Development 
+                          </h3> 
+                        <p class="small-para"> 
+                          Web development is the process of 
+                           building and maintaining websites. 
+                            It involves several aspects, including 
+                             web design, web content development, 
+                             client-side/server-side scripting, 
+                              and network security configuration. 
+                               Web development ranges from creating 
+                                plain text webpages to complex web 
+                                 applications, social network applications,
+                                  and e-commerce platforms. 
+                        </p> 
+                        <p class="small-para"> 
+                          At the heart of web development is 
+                           coding. Developers use programming 
+                            languages like HTML, CSS, and JavaScript 
+                             for front-end development, which focuses 
+                              on the visual aspects of a website that 
+                              users interact with. 
+  
+                              
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-chart-line"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">SEO</h3> 
+                        <p class="small-para"> 
+                          SEO, or Search Engine Optimization, is the 
+                           practice of optimizing websites to increase 
+                           their visibility and ranking in search 
+                            engine results pages (SERPs). It involves
+                             various strategies and techniques aimed 
+                             at attracting organic (non-paid) traffic 
+                              from search engines like Google, Bing, and Yahoo.
+                        </p> 
+                        <p class="small-para"> 
+                          SEO is an ongoing process that requires 
+                          monitoring, analysis, and adaptation to 
+                          evolving search engine algorithms and 
+                           user behaviors. By implementing effective 
+                            SEO strategies, businesses can increase 
+                            their online visibility, attract more 
+                             qualified traffic, and ultimately achieve 
+                              their digital marketing objectives.
+                        </p> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-quote-left"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Content Writting 
+                          </h3> 
+                        <p class="small-para"> 
+                          Content writing is the art and science 
+                           of creating written material for digital 
+                           platforms, with the primary goal of engaging, 
+                           informing, and persuading a target audience. 
+                           It encompasses a wide range of formats, 
+                            including articles, blog posts, social 
+                             media posts, newsletters, ebooks, and more. 
+                        </p> 
+                        <p class="small-para"> 
+                          Effective content writing not only 
+                          communicates information but also aims 
+                           to resonate with readers on an emotional 
+                            level, prompting them to take desired actions 
+                            such as making a purchase, subscribing to a 
+                             newsletter, or sharing the content.
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fab fa-wordpress-simple"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              WordPress Dev 
+                          </h3> 
+                        <p class="small-para"> 
+                          WordPress development involves creating 
+                           and customizing websites using WordPress, 
+                            a widely-used content management system  
+                            (CMS) known for its flexibility and 
+                             user-friendly interface. As a WordPress 
+                             developer, you work with themes, plugins, 
+                              and custom code to build websites that meet 
+                               specific client needs or business requirements. 
+                        </p> 
+                        <p class="small-para"> 
+                          WordPress development requires a blend of 
+                          technical skills, creativity, and an understanding 
+                          of client requirements to deliver functional, 
+                          visually appealing,
+                        </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card"> 
+                        <div class="icon"> 
+                            <i class="fas fa-video"></i> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Video Editing 
+                          </h3> 
+                        <p class="small-para"> 
+                          Video editing is the process of manipulating 
+                          and rearranging video clips to create a 
+                          coherent and visually appealing final product. 
+                           It involves various techniques and skills to 
+                            enhance raw footage into a polished video 
+                             that effectively communicates a message or
+                              tells a story.
+                        </p> 
+                        <p class="small-para"> 
+                          Video editing requires creativity, attention 
+                           to detail, technical proficiency with editing 
+                            software (such as Adobe Premiere Pro, Final Cut 
+                             Pro, or DaVinci Resolve), and an understanding 
+                              of storytelling principles. 
+                        </p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+  
+    <!-- Contact me section -->
+    <section class="contact" id="contact"> 
+        <div class="contact-heading"> 
+            <h1 class="my-heading text-center">Contact Me</h1> 
+        </div> 
+        <div class="contact-content"> 
+            <div class="contact-form-container"> 
+                <h1 class="greet-heading">Get In Touch</h1> 
+                <form class="contact-form"> 
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name"> 
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email"> 
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone"> 
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10"> 
+                      </textarea> 
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message"> 
+                </form> 
+            </div> 
+            <div class="contact-details"> 
+                <h1 class="greet-heading">My Contact Details</h1> 
+                <div class="details"> 
+                    <h5 class="contact-heading">EMAIL</h5> 
+                    <p class="contact-text">nikitakpawar2@gmail.com</p> 
+                </div> 
+                <div class="details"> 
+                    <h5 class="contact-heading">PHONE</h5> 
+                    <p class="contact-text">8004585632</p> 
+                </div> 
+                <div class="details"> 
+                    <h5 class="contact-heading">FAX</h5> 
+                    <p class="contact-text">+91 0123456789</p> 
+                </div> 
+                <div class="details"> 
+                    <h5 class="contact-heading">ADDRESS</h5> 
+                    <p class="contact-text">East mumbai,</p> 
+                    <p>4th Floor8 Lower</p> 
+                    <p>FC Road mumbai,400001</p> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+  
+    <!-- Footer section -->
+    <footer class="footer"> 
+        <div class="footer-content text-center"> 
+            <h4> 
+                Copyright © 2023 All rights reserved | 
+                This portfolio website template is created  
+                  by GeeksforGeeks. 
+            </h4> 
+            <div class="social-links"> 
+                <div class="footer-menu"> 
+                    <ul class="footer-menu-list"> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-facebook-f"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-twitter"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-instagram"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="#"> 
+                                <i class="fab fa-linkedin-in"></i> 
+                            </a> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </div> 
+    </footer> 
+  
+    <script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"> 
+      </script> 
+    <script src="script.js"></script> 
+</body> 
+  
+</html>
