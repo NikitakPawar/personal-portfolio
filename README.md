@@ -25,7 +25,7 @@ Custom Design: Unique design reflecting my personal brand and professional style
 ![Screenshot 2024-10-25 193818](https://github.com/user-attachments/assets/d210a1df-e545-46a7-8400-5addcb544447)
 
 # My Services
-[Screenshot 2024-10-25 193837](https://github.com/user-attachments/assets/f8c3542a-7ffc-49e1-ae08-eafa8b7ddadf)
+![Screenshot 2024-10-25 193837](https://github.com/user-attachments/assets/b6e80c9d-4ae2-4b94-be31-c8007c646218)
 
 ![Screenshot 2024-10-25 193856](https://github.com/user-attachments/assets/68414d30-3c82-422b-bba7-95bda500d3cf)
 
