@@ -1,7 +1,7 @@
 # Project Name: Personal Portfolio
 
 # Description
-This is portfolio website, designed to showcase my skills, projects, and professional background. The website is built with technology using HTML, CSS, Javascript and features a responsive layout, interactive elements, and optimized performance for a seamless user experience across devices.
+This is portfolio website, designed to showcase my skills, projects, and professional background. And the Get Resume feature has also been added. The website is built with technology using HTML, CSS, Javascript and features a responsive layout, interactive elements, and optimized performance for a seamless user experience across devices.
 
 # Features
 
@@ -9,7 +9,7 @@ Projects Showcase: Highlights my key projects with detailed descriptions, images
 About Me: A concise summary of my professional journey, skills, and core competencies.
 Contact Form: A simple and accessible form for direct communication.
 Custom Design: Unique design reflecting my personal brand and professional style.
-
+Get Resume : The Get Resume feature has also been added.
 # Technology
 1.HTML
 2.CSS
